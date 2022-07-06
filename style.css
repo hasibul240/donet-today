@@ -128,6 +128,7 @@ p {
 .donetion_plan p {
     width: 600px;
     margin: auto;
+    padding-bottom: 30px;
 }
 
 .icon_food {
@@ -164,7 +165,8 @@ p {
 }
 
 .subcontainer p {
-    text-align: justify;
+    width: 315px;
+    text-align: center;
 }
 
 #food {
