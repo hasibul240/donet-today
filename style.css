@@ -81,6 +81,7 @@ p {
 .donet_today p {
     width: 600px;
     margin: auto;
+    padding-bottom: 30px;
 }
 
 .amount {
