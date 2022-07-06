@@ -63,7 +63,7 @@ h3 {
     color: white;
     background-image: linear-gradient(228deg, rgb(80, 175, 253), rgb(9, 73, 250));
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 130px;
 }
 
@@ -176,4 +176,26 @@ p {
 
 #education {
     background-color: #FFF3D8;
+}
+
+.half_width {
+    width: 50%;
+}
+
+.half_width img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.half_width p {
+    width: 450px;
+    text-align: left;
+}
+
+.down_p {
+    padding-bottom: 30px;
+}
+
+.flex_gap {
+    gap: 150px;
 }
