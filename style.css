@@ -65,6 +65,7 @@ h3 {
     padding: 10px 20px;
     border-radius: 5px;
     width: 130px;
+    margin-left: 0;
 }
 
 .main_Btn_div {
@@ -198,4 +199,49 @@ p {
 
 .flex_gap {
     gap: 150px;
+}
+
+.subscribe_input {
+    width: 395px;
+    margin: auto;
+}
+
+.subscribe_input input {
+    width: 250px;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    background-color: #cfcfcf;
+    margin-right: -4px;
+}
+
+#subscribe_btn {
+    border-radius: 0px 5px 5px 0px;
+    padding: 9px 20px 10px 20px !important;
+}
+
+#email_input {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.subscribe {
+    width: 800px;
+    margin: 50px auto;
+    padding: 100px;
+    background-color: #bae5fa93;
+    border-radius: 10px;
+}
+
+.humble {
+    font-family: 'Lobster', cursive;
+    color: #52bdf3;
+    padding: 35px;
+    margin: 0;
+}
+
+footer {
+    height: 185px;
+    text-align: center;
+    color: white;
+    background-color: black;
 }
