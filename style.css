@@ -3,43 +3,62 @@ body {
     margin: 0;
     padding: 0;
 }
-section{
+
+section {
     margin-bottom: 100px;
 }
+
 h1 {
     font-size: 50px;
 }
-h2{
+
+h2 {
     font-size: 40px;
 }
-h3{
+
+h3 {
     font-size: 30px;
 }
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.flexyble_container {
+    display: flex;
+}
+
 .top_section {
     background: url(images/donation0.jpg);
     width: 100%;
     height: 650px;
 }
-.header{
+
+.header {
     color: white;
 }
-.header h1{
+
+.header h1 {
     margin-top: 0;
     text-align: center;
     padding-top: 150px;
     margin-bottom: 0;
 }
-.header p{
+
+.header p {
     width: 600px;
     text-align: center;
     margin: auto;
     padding: 20px 0;
     margin-bottom: 25px;
 }
-.high_light{
+
+.high_light {
     color: #52bdf3;
 }
-.donat_btn{
+
+.donat_btn {
     text-decoration: none;
     color: white;
     background-image: linear-gradient(228deg, rgb(80, 175, 253), rgb(9, 73, 250));
@@ -47,7 +66,114 @@ h3{
     border-radius: 10px;
     width: 130px;
 }
-.main_Btn_div{
+
+.main_Btn_div {
     margin: auto;
     width: 130px;
+}
+
+.donet_today h2,
+p {
+    text-align: center;
+}
+
+.donet_today p {
+    width: 600px;
+    margin: auto;
+}
+
+.amount {
+    width: 850px;
+    margin: auto;
+}
+
+.amount h3 {
+    color: gray;
+    padding: 35px 20px;
+    margin: 10px;
+    background: #d9d9d9;
+    width: 105px;
+    text-align: center;
+    float: left;
+    border-radius: 10px;
+}
+
+#amount {
+    border: 2px solid #187CF7;
+    background-color: #7ccff8;
+    color: white;
+}
+
+.input {
+    width: 830px;
+    margin: auto;
+}
+
+.input input {
+    width: 800px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.donetion_plan h1 {
+    text-align: center;
+}
+
+.donetion_plan p {
+    width: 600px;
+    margin: auto;
+}
+
+.icon_food {
+    background: url(icons/food.png);
+}
+
+.icon_family {
+    background: url(icons/shelter.png);
+}
+
+.icon_education {
+    background: url(icons/Frame-1.png);
+}
+
+.icon {
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 65px;
+    display: block;
+    margin: auto;
+}
+
+
+.donet_sector {
+    gap: 20px;
+}
+
+.subcontainer {
+    padding: 40px 25px;
+}
+
+.subcontainer h3 {
+    text-align: center;
+}
+
+.subcontainer p {
+    text-align: justify;
+}
+
+#food {
+    background-color: #EDF5F6;
+}
+
+#family {
+    background-color: #FEEEEE;
+}
+
+#education {
+    background-color: #FFF3D8;
 }
